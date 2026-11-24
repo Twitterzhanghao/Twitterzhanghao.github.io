@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#03343c">
+  <meta name="theme-color" content="#0f1419">
   <meta name="msvalidate.01" content="43ADA3A61F1E905FFF701F7B1AFD4DED">
 
   <title>{% if page.url == '/' %}{{ page.title }}{% else %}{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}{% endif %}</title>
@@ -12,19 +12,17 @@
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml">
 
-  <!-- Favicon / 站点图标（Bing 抓取器兼容：单帧 16x16 ICO + 品牌色 SVG） -->
   <link rel="icon" href="{{ site.url }}/favicon.ico" sizes="16x16">
   <link rel="icon" type="image/svg+xml" href="{{ site.url }}/favicon.svg">
   <link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}/favicon.svg">
   <link rel="manifest" href="{{ site.url }}/site.webmanifest">
 
-  <!-- Open Graph -->
   <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
   <meta property="og:site_name" content="{{ site.title }}">
-  {% if page.image %}{% assign og_img = page.image | replace: '.webp', '-thumb.webp' %}<meta property="og:image" content="{{ site.url }}{{ og_img }}">{% endif %}
+  {% if page.image %}<meta property="og:image" content="{{ site.url }}{{ page.image }}">{% endif %}
 
   <link rel="stylesheet" href="{{ site.url }}/assets/css/{{ site.css_name | default: 'style.css' }}">
 </head>
@@ -37,8 +35,8 @@
 
   <header class="topbar">
     <a class="brand" href="{{ site.url }}/" aria-label="{{ site.title }} 首页">
-      <span class="brand-logo" aria-hidden="true">✈️</span>
-      <span>纸飞机批发<span class="brand-divider">/</span><span class="brand-product">Telegram 账号</span></span>
+      <span class="brand-logo" aria-hidden="true">𝕏</span>
+      <span>推特账号批发<span class="brand-divider">/</span><span class="brand-product">X 账号购买</span></span>
     </a>
     <nav class="nav" aria-label="主导航">
       <a href="{{ site.url }}/" {% if page.url == '/' %}class="active"{% endif %}>首页</a>
@@ -54,7 +52,7 @@
     <nav class="breadcrumb" aria-label="面包屑">
       <a href="{{ site.url }}/">首页</a> ›
       <a href="{{ site.url }}/articles/">选购指南</a> ›
-      {% if page.category %}<a href="{% include cat_url.html cat=page.category %}">{{ page.category }}</a> ›{% endif %}
+      {% if page.category %}<span>{{ page.category }}</span> ›{% endif %}
       <span>{{ page.title | truncate: 24 }}</span>
     </nav>
     {% endif %}
@@ -66,21 +64,21 @@
     <div class="footer-main">
       <div>
         <a class="brand" href="{{ site.url }}/">
-          <span class="brand-logo" aria-hidden="true">✈️</span>
-          <span>纸飞机批发 / Telegram 账号</span>
+          <span class="brand-logo" aria-hidden="true">𝕏</span>
+          <span>推特账号批发 / X 账号购买</span>
         </a>
-        <p>TG 老号、新号、成品号批量供货，价格透明可查。</p>
-        <p class="footer-note">本站为独立整理的选购指南，与 Telegram 官方无隶属或合作关系。</p>
+        <p>X 老号、新号、成品号、蓝V号批量供货，价格透明可查。</p>
+        <p class="footer-note">本站为独立整理的选购指南，与 X Corp. 官方无隶属或合作关系。</p>
       </div>
       <nav aria-label="号源">
         <a href="{{ site.url }}/products/">全部号源</a>
         <a href="{{ site.url }}/price/">价格表</a>
         <a href="{{ site.url }}/articles/">选购指南</a>
-        <span>Telegram · 电报 · 纸飞机</span>
+        <span>X · Twitter · 推特账号</span>
       </nav>
       <nav aria-label="关于本站">
         <a href="{{ site.url }}/articles/">新手入门</a>
-        <a href="{{ site.url }}/articles/">防封要点</a>
+        <a href="{{ site.url }}/articles/">养号要点</a>
         <a href="{{ site.url }}/articles/">常见问题</a>
         <span>内容持续维护 · 欢迎纠错</span>
       </nav>

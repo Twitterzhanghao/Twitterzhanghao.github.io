@@ -2,10 +2,11 @@
 title: Twitter账号价格表：老号新号成品号多少钱
 url: /articles/2026-11-24-twitter-jiagebiao
 layout: post
-image: ["/assets/images/twitter-3.webp", "/assets/images/twitter-6.webp", "/assets/images/twitter-7.webp"]
+category: 账号选购
+description: X（推特）账号价格从 6 元的新号到几千元的金V企业号，差价在哪？这篇拆解注册时间、活跃度、认证状态、供货渠道四个定价因素，附完整价格区间参考。
+image: /assets/images/twitter-3.webp
+tags: [推特账号价格, 推特账号多少钱, 推特价格表, 推特批发价格]
 ---
-# Twitter账号价格表：老号新号成品号多少钱
-
 「twitter账号价格」不是固定的，而是由注册时间、活跃度、认证状态、IP地区共同决定。结合X平台真实界面（X/Twitter标志对比、X注册教学、出生日期表单），本文拆解「twitter价格表」构成，帮你判断「twitter账号多少钱」值不值。
 
 ## 一、价格构成四要素
@@ -58,6 +59,9 @@ image: ["/assets/images/twitter-3.webp", "/assets/images/twitter-6.webp", "/asse
 参考出生日期表单（What's your birth date? This will not be public）：
 - 注册时出生日期**不会公开**，保护隐私
 - 但需与实名信息一致，避免验证失败
+
+<figure class="post-figure"><img src="/assets/images/twitter-6.webp" alt="2026-11-24-twitter-jiagebiao" loading="lazy" width="1200" height="675"></figure>
+<figure class="post-figure"><img src="/assets/images/twitter-7.webp" alt="2026-11-24-twitter-jiagebiao" loading="lazy" width="1200" height="675"></figure>
 
 ---
 

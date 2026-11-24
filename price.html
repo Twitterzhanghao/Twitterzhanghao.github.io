@@ -1,18 +1,18 @@
 ---
 layout: default
-title: 价格表 - Telegram账号价格_纸飞机账号多少钱一个
-description: Telegram 账号价格表：TG 接码号、新号、老号价格一览，实时更新。混合国家双向号 ¥3.04 起，1-10 年老号 ¥22 起，批发可谈阶梯价。
-keywords: Telegram账号价格,纸飞机账号价格,TG账号多少钱,TG老号价格,TG新号价格,接码号价格,电报账号价格表
+title: 价格表 - X账号价格_推特账号多少钱一个
+description: X（推特）账号价格表：新号、老号、成品号、蓝V认证号价格一览，实时更新。混合国家新号 ¥6 起，2018 年前老号 ¥198 起，小号批发 ¥3.20 起，量大可谈阶梯价。
+keywords: x账号价格,推特账号价格,twitter账号多少钱,推特老号价格,推特新号价格,推特成品号价格,推特蓝V号价格,x账号价格表
 ---
 
-{% assign tg = site.data.tg_products %}
+{% assign tg = site.data.x_products %}
 
 <section class="page-hero">
   <h1>号源价格表</h1>
-  <p>Telegram 账号实时价格与库存，同步商城。数据抓取于 {{ tg.updated }}，实际以商城页面为准。</p>
+  <p>X（推特）账号实时价格与库存，同步商城。数据更新于 {{ tg.updated }}，实际以商城页面为准。</p>
   <div class="hero-stats">
-    <div><b>¥{{ tg.min_price }}</b><span>最低单价（接码号）</span></div>
-    <div><b>¥{{ tg.max_price }}</b><span>最高单价（1-10年老号）</span></div>
+    <div><b>¥{{ tg.min_price }}</b><span>最低单价（小号批发）</span></div>
+    <div><b>¥{{ tg.max_price }}</b><span>最高单价（金V企业号）</span></div>
     <div><b>{{ tg.in_stock_count }}</b><span>有货号源</span></div>
     <div><b>{{ tg.total_stock }}</b><span>当前总库存</span></div>
   </div>
@@ -23,13 +23,19 @@ keywords: Telegram账号价格,纸飞机账号价格,TG账号多少钱,TG老号�
   <a href="#price" class="on" data-tab="all">全部（{{ tg.total }}）</a>
   <a href="#price" data-tab="new">新号（{{ tg.new | size }}）</a>
   <a href="#price" data-tab="old">老号（{{ tg.old | size }}）</a>
+  <a href="#price" data-tab="ready">成品号（{{ tg.ready | size }}）</a>
+  <a href="#price" data-tab="blue">蓝V号（{{ tg.blue | size }}）</a>
+  <a href="#price" data-tab="bulk">批发（{{ tg.bulk | size }}）</a>
 </div>
 
-{% assign groups = "all|new|old" | split: "|" %}
+{% assign groups = "all|new|old|ready|blue|bulk" | split: "|" %}
 {% for g in groups %}
   {% assign items = tg.products %}
   {% if g == 'new' %}{% assign items = tg.new %}{% endif %}
   {% if g == 'old' %}{% assign items = tg.old %}{% endif %}
+  {% if g == 'ready' %}{% assign items = tg.ready %}{% endif %}
+  {% if g == 'blue' %}{% assign items = tg.blue %}{% endif %}
+  {% if g == 'bulk' %}{% assign items = tg.bulk %}{% endif %}
   <section class="plist" data-group="{{ g }}" {% if g != 'all' %}hidden{% endif %}>
     <div class="plist-head" aria-hidden="true">
       <span>号源</span><span>类型</span><span>价格</span><span>库存</span><span></span>
@@ -61,21 +67,39 @@ keywords: Telegram账号价格,纸飞机账号价格,TG账号多少钱,TG老号�
   <div class="section-head"><h2>💡 价格怎么理解</h2></div>
   <div class="guide-grid">
     <article>
-      <h3>¥3.04 是什么号？</h3>
-      <p>混合国家双向号，接码号里最便宜的档位。适合批量注册、大量收验证码的走量场景。库存大、发货快，但要注意单号价格低不等于使用体验差。</p>
+      <h3>¥3.20 是什么号？</h3>
+      <p>小号批发的最低档，1000 个起订的长期供货价。适合矩阵铺号、批量注册、需要海量账号的走量场景，单号成本压到最低。10 个起的档位是 ¥4.50。</p>
     </article>
     <article>
-      <h3>¥22 起的老号贵在哪？</h3>
-      <p>贵在「账号年龄」。注册满 1-10 年的号，风控判定稳定，不容易被限制。适合需要长期挂机、介意新号触发风控的场景。</p>
+      <h3>¥6 的新号和 ¥198 的老号差在哪？</h3>
+      <p>差在「账号年龄」。新号是刚注册完成、只做了验证的账号；2018-2020 年注册的老号已经有六到八年历史行为记录，平台信任度高得多，不容易被判定为批量注册。</p>
     </article>
     <article>
-      <h3>为什么有的档位缺货？</h3>
-      <p>小众国家档位补货不稳定，库存为 0 的档位稍后再来，或者直接选库存大的混合档。缺货时商城一般也会给出预计补货时间。</p>
+      <h3>成品号凭什么卖 ¥88 起？</h3>
+      <p>成品号是别人已经养过一段时间的号：头像简介齐全、有历史推文、日常行为轨迹正常。你买的不是账号，是「省下来的养号时间」和已经积累的行为记录。</p>
     </article>
     <article>
-      <h3>批发有阶梯价吗？</h3>
-      <p>有。批量采购（50 个以上）可在商城联系客服谈阶梯价。走量场景强烈建议先问清阶梯价再下单，能省不少。</p>
+      <h3>蓝V号为什么上千？</h3>
+      <p>蓝V（X Premium）需要真实付费订阅并通过身份审核，金V（企业认证）还要企业资质。这类号的成本本身就来自订阅费与认证流程，不是单纯的账号价格。</p>
     </article>
+  </div>
+</section>
+
+<section class="section faq">
+  <div class="section-head"><h2>❓ 价格相关常见问题</h2></div>
+  <div class="faq-list">
+    <details>
+      <summary>批发有阶梯价吗？</summary>
+      <p>有。批量采购（一般 50 个以上）可在商城联系客服谈阶梯价，量越大单价越低。走量场景建议先问清阶梯价再下单。</p>
+    </details>
+    <details>
+      <summary>为什么有的档位缺货？</summary>
+      <p>固定地区档位补货不稳定，库存为 0 的档位稍后再来，或者直接选库存充足的混合档。缺货时商城一般也会给出预计补货时间。</p>
+    </details>
+    <details>
+      <summary>价格包含质保吗？</summary>
+      <p>包含。所有号源都质保首次登录——首登失败凭订单号找客服换号或退款。注意是「首次登录」质保，不是永久质保。</p>
+    </details>
   </div>
 </section>
 

@@ -2,10 +2,11 @@
 title: Twitter账号类型详解：老号新号成品号怎么选
 url: /articles/2026-11-24-twitter-haozi
 layout: post
-image: ["/assets/images/twitter-4.webp", "/assets/images/twitter-9.webp", "/assets/images/twitter-10.webp"]
+category: 账号选购
+description: X（推特）账号分新号、老号、成品号、蓝V认证号、批发号五类。这篇从账号年龄、行为记录、价格区间、适用场景四个维度拆开讲，帮你一次选对。
+image: /assets/images/twitter-4.webp
+tags: [推特账号类型, 推特老号, 推特新号, 推特成品号, 推特蓝V]
 ---
-# Twitter账号类型详解：老号新号成品号怎么选
-
 「twitter账号类型」是购买前必须先搞懂的基础。结合X平台真实界面（X官方主页@X、Twitter网页版、X首页品牌更名），本文从特点、价格、适用场景三维度，帮你精准选号。
 
 ## 一、Twitter老号
@@ -58,6 +59,9 @@ image: ["/assets/images/twitter-4.webp", "/assets/images/twitter-9.webp", "/asse
 2. **看预算**：预算足→蓝V号；预算紧→新号+养号
 3. **看场景**：企业→蓝V；工作室→批发；个人→成品号
 4. **看参考**：用@elonmusk、@X等真实账号作健康度参照
+
+<figure class="post-figure"><img src="/assets/images/twitter-9.webp" alt="2026-11-24-twitter-haozi" loading="lazy" width="1200" height="675"></figure>
+<figure class="post-figure"><img src="/assets/images/twitter-10.webp" alt="2026-11-24-twitter-haozi" loading="lazy" width="1200" height="675"></figure>
 
 ---
 

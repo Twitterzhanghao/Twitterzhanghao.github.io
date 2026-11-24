@@ -2,10 +2,11 @@
 title: Twitter账号购买指南：从选号到验号的完整流程
 url: /articles/2026-11-24-twitter-hagaomai
 layout: post
-image: ["/assets/images/twitter-0.webp", "/assets/images/twitter-2.webp", "/assets/images/twitter-10.webp"]
+category: 账号选购
+description: 买 X（推特）账号最怕拿到死号或被原主人找回。这篇讲清选号标准、验号步骤、登录后 24 小时必须改的三件事，以及不同价位档位适合什么用途。
+image: /assets/images/twitter-0.webp
+tags: [推特账号购买, X账号购买, twitter账号购买, 成品号, 老号]
 ---
-# Twitter账号购买指南：从选号到验号的完整流程
-
 想购买Twitter（X）账号，最怕的就是买到死号、被找回或被封号。本文结合X平台真实界面（@elonmusk账号、X官方主页、趋势榜），讲解「twitter账号购买」的完整流程：选号、验号、登录、安全设置。
 
 ## 一、Twitter账号类型怎么选
@@ -56,6 +57,9 @@ image: ["/assets/images/twitter-0.webp", "/assets/images/twitter-2.webp", "/asse
 2. **保障**：质保期内可换号/退款
 3. **响应**：客服响应速度（建议工作时间实时在线）
 4. **安全**：支付渠道正规、不泄露买家信息
+
+<figure class="post-figure"><img src="/assets/images/twitter-2.webp" alt="2026-11-24-twitter-hagaomai" loading="lazy" width="1200" height="675"></figure>
+<figure class="post-figure"><img src="/assets/images/twitter-10.webp" alt="2026-11-24-twitter-hagaomai" loading="lazy" width="1200" height="675"></figure>
 
 ---
 

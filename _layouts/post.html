@@ -5,12 +5,18 @@ layout: default
   <header class="article-header">
     <div class="article-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%Y年%m月%d日' }}</time>
-      {% if page.category %}<span class="dot">·</span><a class="cat-tag" href="{% include cat_url.html cat=page.category %}">{{ page.category }}</a>{% endif %}
+      {% if page.category %}<span class="dot">·</span><a class="cat-tag" href="{{ site.url }}/articles/">{{ page.category }}</a>{% endif %}
       <span class="dot">·</span><span class="read-time">约 {{ page.content | strip_html | size | divided_by: 400 | plus: 1 }} 分钟</span>
     </div>
     <h1>{{ page.title }}</h1>
     {% if page.description %}<p class="article-desc">{{ page.description }}</p>{% endif %}
   </header>
+
+  {% if page.image %}
+  <figure class="post-cover">
+    <img src="{{ page.image }}" alt="{{ page.title }}" loading="eager" width="1200" height="675">
+  </figure>
+  {% endif %}
 
   {% assign has_toc = page.toc | default: true %}
   {% if has_toc %}
@@ -43,8 +49,7 @@ layout: default
     {% for post in related limit: 3 %}
     <article class="post-card">
       <a href="{{ post.url }}" class="card-img placeholder" aria-hidden="true">
-        {% case post.category %}
-        {% when '使用教程' %}📖{% when '账号选购' %}🔑{% when '下载安装' %}📥{% when '常见问题' %}❓{% else %}🚀{% endcase %}
+        {% if post.image %}<img src="{{ post.image }}" alt="" loading="lazy" width="400" height="225">{% else %}{% case post.category %}{% when '注册教程' %}📖{% when '账号选购' %}🔑{% when '养号技巧' %}🛠️{% when '常见问题' %}❓{% else %}𝕏{% endcase %}{% endif %}
       </a>
       <div class="card-body">
         <time>{{ post.date | date: '%Y-%m-%d' }}</time>
@@ -65,6 +70,7 @@ layout: default
 (function () {
   var body = document.getElementById('article-body');
   var toc = document.getElementById('toc');
+
   if (!body || !toc) return;
   var heads = body.querySelectorAll('h2, h3');
   if (!heads.length) { var box = toc.closest('.toc'); if (box) box.remove(); return; }

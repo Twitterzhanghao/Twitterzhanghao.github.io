@@ -1,15 +1,15 @@
 ---
 layout: default
-title: 全部号源 - 纸飞机账号批发_Telegram账号_TG账号批发
-description: Telegram 账号全部号源列表：TG 接码号、新号、1-10 年老号，实时价格与库存，自动发货，质保首次登录。混合国家号 ¥3.04 起，老号 ¥22 起。
-keywords: 纸飞机账号批发,Telegram账号批发,TG账号批发,Telegram新号,TG老号,TG接码号,电报账号购买,TG号源
+title: 全部号源 - 推特账号批发_X账号_Twitter账号出售
+description: X（推特）账号全部号源列表：新号、2012-2024 年老号、成品号、蓝V认证号、小号批发，实时价格与库存，自动发货，质保首次登录。新号 ¥6 起，老号 ¥58 起。
+keywords: 推特账号批发,x账号批发,twitter账号批发,推特新号,推特老号,推特成品号,推特蓝V号,x账号出售
 ---
 
-{% assign tg = site.data.tg_products %}
+{% assign tg = site.data.x_products %}
 
 <section class="page-hero">
   <h1>全部号源</h1>
-  <p>Telegram 账号现货直发：接码号、新号、1-10 年老号，共 {{ tg.total }} 个号源在售。价格与库存实时同步商城，下单自动发货，质保首次登录。</p>
+  <p>X（推特）账号现货直发：新号、2012-2024 年老号、已养号成品号、蓝V认证号与批发档，共 {{ tg.total }} 个号源在售。价格与库存实时同步商城，下单自动发货，质保首次登录。</p>
   <div class="hero-stats">
     <div><b>{{ tg.in_stock_count }}</b><span>有货号源</span></div>
     <div><b>{{ tg.total_stock }}</b><span>当前总库存</span></div>
@@ -23,13 +23,19 @@ keywords: 纸飞机账号批发,Telegram账号批发,TG账号批发,Telegram新�
   <a href="#all" class="on" data-tab="all">全部（{{ tg.total }}）</a>
   <a href="#new" data-tab="new">新号（{{ tg.new | size }}）</a>
   <a href="#old" data-tab="old">老号（{{ tg.old | size }}）</a>
+  <a href="#ready" data-tab="ready">成品号（{{ tg.ready | size }}）</a>
+  <a href="#blue" data-tab="blue">蓝V号（{{ tg.blue | size }}）</a>
+  <a href="#bulk" data-tab="bulk">批发（{{ tg.bulk | size }}）</a>
 </div>
 
-{% assign groups = "all|new|old" | split: "|" %}
+{% assign groups = "all|new|old|ready|blue|bulk" | split: "|" %}
 {% for g in groups %}
   {% assign items = tg.products %}
   {% if g == 'new' %}{% assign items = tg.new %}{% endif %}
   {% if g == 'old' %}{% assign items = tg.old %}{% endif %}
+  {% if g == 'ready' %}{% assign items = tg.ready %}{% endif %}
+  {% if g == 'blue' %}{% assign items = tg.blue %}{% endif %}
+  {% if g == 'bulk' %}{% assign items = tg.bulk %}{% endif %}
   <section class="plist" data-group="{{ g }}" {% if g != 'all' %}hidden{% endif %}>
     <div class="plist-head" aria-hidden="true">
       <span>号源</span><span>类型</span><span>价格</span><span>库存</span><span></span>
@@ -58,15 +64,19 @@ keywords: 纸飞机账号批发,Telegram账号批发,TG账号批发,Telegram新�
 {% endfor %}
 
 <section class="section">
-  <div class="section-head"><h2>📌 新号 vs 老号，怎么选</h2></div>
+  <div class="section-head"><h2>📌 新号 vs 老号 vs 成品号，怎么选</h2></div>
   <div class="compare-bar">
     <div>
-      <b>新号（接码号）· ¥3.04 起</b>
-      <span>提供虚拟手机号用于 Telegram 注册/登录验证，适合批量注册、接收验证码、养号。质保首次登录，接码链接 180 天有效。量大走量选混合国家双向号最划算。</span>
+      <b>新号 · ¥6 起</b>
+      <span>刚注册完成、邮箱（部分含手机）已验证的 X 账号。拿到后需要自己换头像、写简介、发内容。适合批量矩阵、测试投放、短期项目。最便宜，也最需要养。</span>
     </div>
     <div class="warm">
-      <b>老号（1-10 年）· ¥22 起</b>
-      <span>注册 1 到 10 年的稳定账号，风控门槛低，更适合长期挂机使用、介意账号年龄的场景。刚果布、伊拉克、混合稳定国家等档位可选。</span>
+      <b>老号（2012-2024 注册）· ¥58 起</b>
+      <span>账号年龄从 1 年到 14 年不等，历史行为轨迹完整。平台信任度高，触发风控概率低，适合长期运营、介意账号年龄的场景。注册越早越贵。</span>
+    </div>
+    <div>
+      <b>成品号 · ¥88 起</b>
+      <span>已经养过 30-90 天，头像简介齐全、有原创推文、粉丝真实。开箱即用，不用自己从零开始养。适合要马上产出内容的场景。</span>
     </div>
   </div>
 </section>
@@ -76,21 +86,24 @@ keywords: 纸飞机账号批发,Telegram账号批发,TG账号批发,Telegram新�
   <div class="faq-list">
     <details>
       <summary>号源价格为什么每天不一样？</summary>
-      <p>本站数据实时同步商城接口，库存和价格随商城变动。下单时以商城页面实际报价为准。缺货档位可稍后再来，或咨询客服补货时间。</p>
+      <p>本站数据同步商城，库存和价格随商城变动。下单时以商城页面实际报价为准。缺货档位可稍后再来，或咨询客服补货时间。</p>
     </details>
     <details>
-      <summary>怎么联系批发/阶梯价？</summary>
+      <summary>怎么联系批发 / 阶梯价？</summary>
       <p>商城下单页面有客服入口。批量采购（一般 50 个以上）可以直接在商城内咨询阶梯价，量大价优。</p>
     </details>
     <details>
       <summary>自动发货是发什么？</summary>
-      <p>付款后系统直接发出「手机号码 + 获取验证码的网址」。手机号即账号，接码链接 180 天内有效，质保首次登录。</p>
+      <p>付款后系统直接发出「账号（用户名或邮箱）」「密码」「辅助邮箱」三样东西，部分号源含手机验证会一并给出。质保首次登录。</p>
+    </details>
+    <details>
+      <summary>新号里为什么没有推文？</summary>
+      <p>新号本身没有内容，这是正常的，不是空号。想要开箱即用、有历史内容的，直接看成品号或老号档位。</p>
     </details>
   </div>
 </section>
 
 <script>
-// 分类 tab 切换
 document.querySelectorAll('.cat-tabs a').forEach(function (a) {
   a.addEventListener('click', function (e) {
     e.preventDefault();

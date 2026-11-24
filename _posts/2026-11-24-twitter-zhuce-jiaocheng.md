@@ -2,10 +2,11 @@
 title: Twitter注册教学全攻略
 url: /articles/2026-11-24-twitter-zhuce-jiaocheng
 layout: post
-image: ["/assets/images/twitter-0.webp", "/assets/images/twitter-6.webp", "/assets/images/twitter-7.webp"]
+category: 注册教程
+description: 国内手机号收不到 X（推特）验证码？这篇给出完整注册路径：邮箱注册、跳过手机验证、出生日期填法、敏感内容解除，以及浏览器打不开推特时的排查顺序。
+image: /assets/images/twitter-6.webp
+tags: [X注册教学, 推特注册, 推特注册教程, 无需手机号]
 ---
-# Twitter注册教学全攻略：100%轻松注册，无需大陆手机号
-
 想注册Twitter（现X），最头疼的就是手机号验证和敏感内容限制。本文提供「X（Twitter）注册教学」完整流程，实现「100%轻松注册」，解决「无需大陆手机号」和「解除敏感」两大核心痛点。
 
 ## X注册核心痛点解析
@@ -72,6 +73,9 @@ A：使用IPdodo BROWSER FIX修复「缓存/会话/链接/环境」，或更换�
 - 互动率稳定 = 账号健康度指标
 
 购买成品号时，可参考以上指标筛选「twitter老号」「twitter已验证号」「twitter蓝V认证号」。
+
+<figure class="post-figure"><img src="/assets/images/twitter-0.webp" alt="2026-11-24-twitter-zhuce-jiaocheng" loading="lazy" width="1200" height="675"></figure>
+<figure class="post-figure"><img src="/assets/images/twitter-7.webp" alt="2026-11-24-twitter-zhuce-jiaocheng" loading="lazy" width="1200" height="675"></figure>
 
 ---
 

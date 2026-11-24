@@ -2,10 +2,11 @@
 title: Twitter账号购买流程：从下单到登录的实战步骤
 url: /articles/2026-11-24-twitter-gaoqiao
 layout: post
-image: ["/assets/images/twitter-2.webp", "/assets/images/twitter-5.webp", "/assets/images/twitter-11.webp"]
+category: 注册教程
+description: 从下单到能正常发推，推特账号购买流程分六步：选档、付款、收号、首登验证、改密绑邮箱、开 2FA。每步会卡在哪、怎么绕，这篇一次讲完。
+image: /assets/images/twitter-2.webp
+tags: [推特购买流程, 推特账号购买流程, 推特选号, 推特账号验证]
 ---
-# Twitter账号购买流程：从下单到登录的实战步骤
-
 买Twitter（X）账号不是「给钱拿号」那么简单。结合X平台真实登录/注册界面（X注册教学、DM私信界面、IPdodo BROWSER FIX），本文拆解「twitter账号购买流程」每一步，避免踩坑。
 
 ## 一、完整购买流程总览
@@ -62,6 +63,9 @@ image: ["/assets/images/twitter-2.webp", "/assets/images/twitter-5.webp", "/asse
 | 敏感内容过滤 | 新号默认开启 | 设置→隐私→关闭过滤 |
 | Chrome打不开 | 浏览器环境异常 | IPdodo BROWSER FIX修复 |
 | 账号被找回 | 卖家预留邮箱 | 立即解绑+改密+2FA |
+
+<figure class="post-figure"><img src="/assets/images/twitter-5.webp" alt="2026-11-24-twitter-gaoqiao" loading="lazy" width="1200" height="675"></figure>
+<figure class="post-figure"><img src="/assets/images/twitter-11.webp" alt="2026-11-24-twitter-gaoqiao" loading="lazy" width="1200" height="675"></figure>
 
 ---
 
