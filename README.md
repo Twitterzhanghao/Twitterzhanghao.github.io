@@ -31,7 +31,7 @@
 
 ## 📌 关于本站
 
-[本站](https://telegramgomai.github.io/) 建立的原因很直接：关于"纸飞机账号""Telegram 账号"这个主题，网上的信息分布太散了。一部分内容在讲 Telegram 本身怎么用，一部分在卖账号，一部分在讲注册流程和验证码，还有的干脆是在互相打广告。一个真正想解决问题的人，往往要打开七八个标签页才能拼出一个完整答案。
+[本站](https://Twitterzhanghao.github.io/) 建立的原因很直接：关于"纸飞机账号""Telegram 账号"这个主题，网上的信息分布太散了。一部分内容在讲 Telegram 本身怎么用，一部分在卖账号，一部分在讲注册流程和验证码，还有的干脆是在互相打广告。一个真正想解决问题的人，往往要打开七八个标签页才能拼出一个完整答案。
 
 本站想覆盖的就是这条完整路径上的关键环节：Telegram 是什么、纸飞机账号怎么注册、验证码长什么样、怎么下载客户端、登录后要做什么安全设置、成品号和老号接码号分别适合谁、买账号之前该确认哪些事、批量采购怎么算账。换句话说，这里整理的是"从想用到用上"的全过程，而不是单一环节的教程。
 
@@ -53,7 +53,7 @@
 
 **购买方式**：支持个人单号购买与工作室批量采购。下单后系统自动发货，直接发出手机号与接码网址；质保首次登录，账号到手即可使用。价格透明，现货供应。
 
-> 查看实时号源与价格请前往 [产品页](https://telegramgomai.github.io/products/) 或 [价格表](https://telegramgomai.github.io/price/)。
+> 查看实时号源与价格请前往 [产品页](https://Twitterzhanghao.github.io/products/) 或 [价格表](https://Twitterzhanghao.github.io/price/)。
 
 ---
 
@@ -151,7 +151,7 @@ Telegram 支持多个平台，下载渠道也因地区而异。国内用户常�
 
 为什么要买成品号而不是自己注册？常见原因有三类：一是注册过程反复失败（验证码收不到、被限制）；二是想快速拿到能用的账号，不想等注册流程；三是批量需求，自己注册效率太低。
 
-但成品号也意味着你接手的是一个"用过"或"别人注册"的账号，所以选号时要重点确认：**账号类型是否匹配、是否支持质保、登录后能否改绑、账号状态是否正常**。这些在 [Telegram成品号怎么买](https://telegramgomai.github.io/articles/2026-11-07-telegram成品号怎么买-选号-验号和登录的完整流程/) 和 [成品账号到底是什么](https://telegramgomai.github.io/articles/2026-11-07-telegram成品账号到底是什么-为什么有人选择它而不是自己注册/) 两篇里有完整展开。
+但成品号也意味着你接手的是一个"用过"或"别人注册"的账号，所以选号时要重点确认：**账号类型是否匹配、是否支持质保、登录后能否改绑、账号状态是否正常**。这些在 [Telegram成品号怎么买](https://Twitterzhanghao.github.io/articles/2026-11-07-telegram成品号怎么买-选号-验号和登录的完整流程/) 和 [成品账号到底是什么](https://Twitterzhanghao.github.io/articles/2026-11-07-telegram成品账号到底是什么-为什么有人选择它而不是自己注册/) 两篇里有完整展开。
 
 ---
 
@@ -186,7 +186,7 @@ Telegram 支持多个平台，下载渠道也因地区而异。国内用户常�
 - **号码来源** —— 接码号来源五花八门，尽量选择来源清晰、有保障的渠道。
 - **风险边界** —— 接码号本身是工具，但利用它绕过平台风控、批量注册骚扰账号属于违规行为，本站不涉及也不协助此类操作。
 
-如果你需要接码号，建议先看 [接码号是什么？TG 接码号怎么用](https://telegramgomai.github.io/articles/2026-11-05-jie-ma-hao-shi-shen-me/) 和 [接码工具怎么选](https://telegramgomai.github.io/articles/2026-11-07-telegram接码工具怎么选才靠谱-真实使用场景与风险说明/) 两篇，把原理和使用边界搞清楚再动手。
+如果你需要接码号，建议先看 [接码号是什么？TG 接码号怎么用](https://Twitterzhanghao.github.io/articles/2026-11-05-jie-ma-hao-shi-shen-me/) 和 [接码工具怎么选](https://Twitterzhanghao.github.io/articles/2026-11-07-telegram接码工具怎么选才靠谱-真实使用场景与风险说明/) 两篇，把原理和使用边界搞清楚再动手。
 
 ---
 
@@ -200,7 +200,7 @@ Telegram 支持多个平台，下载渠道也因地区而异。国内用户常�
 - **质保明确** —— 对首次登录、账号状态提供明确质保承诺。
 - **售后响应** —— 遇到登录失败、账号异常时有人能处理，而不是拉黑跑路。
 
-反过来，需要警惕的坑包括：价格低得离谱、号源描述模糊、发货后账号无法登录、质保条款形同虚设、客服失联。这些在 [购买网站怎么选](https://telegramgomai.github.io/articles/2026-11-07-telegram账号购买网站怎么选-购买前需要了解的几个关键问题/) 和 [tg号在哪买](https://telegramgomai.github.io/articles/2026-11-03-tghaozainamai-kaopuqudaoxuanzeyubikengshendujiexi/) 两篇里有详细拆解。
+反过来，需要警惕的坑包括：价格低得离谱、号源描述模糊、发货后账号无法登录、质保条款形同虚设、客服失联。这些在 [购买网站怎么选](https://Twitterzhanghao.github.io/articles/2026-11-07-telegram账号购买网站怎么选-购买前需要了解的几个关键问题/) 和 [tg号在哪买](https://Twitterzhanghao.github.io/articles/2026-11-03-tghaozainamai-kaopuqudaoxuanzeyubikengshendujiexi/) 两篇里有详细拆解。
 
 本站的产品页数据由商城实时同步，号源、价格与库存都是当前真实状态，可直接查看。
 
@@ -218,7 +218,7 @@ Telegram 支持多个平台，下载渠道也因地区而异。国内用户常�
 - **售后与补发** —— 批量账号里如果有个别不能登录，是否有补发或退换机制。
 - **风险边界** —— 批量注册、批量登录账号如果用于骚扰、刷量等违规行为，属于平台禁止操作，本站不协助此类需求。
 
-如果你需要批量采购，建议先读 [Telegram账号批发：批量获取账号前的关键考量](https://telegramgomai.github.io/articles/2026-11-07-telegram账号批发-批量获取账号前的关键考量/) 和 [tg批发出售平台怎么选](https://telegramgomai.github.io/articles/2026-11-07-tg批发出售平台怎么选-批量购买telegram账号前该确认什么/) 两篇，把采购逻辑和风险边界理清。
+如果你需要批量采购，建议先读 [Telegram账号批发：批量获取账号前的关键考量](https://Twitterzhanghao.github.io/articles/2026-11-07-telegram账号批发-批量获取账号前的关键考量/) 和 [tg批发出售平台怎么选](https://Twitterzhanghao.github.io/articles/2026-11-07-tg批发出售平台怎么选-批量购买telegram账号前该确认什么/) 两篇，把采购逻辑和风险边界理清。
 
 ---
 
@@ -251,14 +251,14 @@ Telegram 支持多个平台，下载渠道也因地区而异。国内用户常�
 
 以下是本站访问量最高、覆盖核心需求方向的几篇内容，适合作为入门的抓手：
 
-- [Telegram 账号常见问题：多少钱、怎么发货、会不会被封](https://telegramgomai.github.io/articles/2026-11-03-telegram-chang-jian-wen-ti/)
-- [Telegram 成品号怎么买？选号、验号和登录的完整流程](https://telegramgomai.github.io/articles/2026-11-07-telegram成品号怎么买-选号-验号和登录的完整流程/)
-- [Telegram 老号购买：怎么判断账号质量](https://telegramgomai.github.io/articles/2026-11-07-telegram老号购买-怎么判断账号质量-买之前该确认哪些事/)
-- [Telegram 账号批发：批量获取账号前的关键考量](https://telegramgomai.github.io/articles/2026-11-07-telegram账号批发-批量获取账号前的关键考量/)
-- [纸飞机账号购买：选号前必须确认的几件事](https://telegramgomai.github.io/articles/2026-11-07-纸飞机账号购买-选号前必须确认的几件事/)
-- [Telegram 登录后必做的 3 步设置](https://telegramgomai.github.io/articles/2026-11-04-deng-lu-hou-bi-zuo-3-bu/)
+- [Telegram 账号常见问题：多少钱、怎么发货、会不会被封](https://Twitterzhanghao.github.io/articles/2026-11-03-telegram-chang-jian-wen-ti/)
+- [Telegram 成品号怎么买？选号、验号和登录的完整流程](https://Twitterzhanghao.github.io/articles/2026-11-07-telegram成品号怎么买-选号-验号和登录的完整流程/)
+- [Telegram 老号购买：怎么判断账号质量](https://Twitterzhanghao.github.io/articles/2026-11-07-telegram老号购买-怎么判断账号质量-买之前该确认哪些事/)
+- [Telegram 账号批发：批量获取账号前的关键考量](https://Twitterzhanghao.github.io/articles/2026-11-07-telegram账号批发-批量获取账号前的关键考量/)
+- [纸飞机账号购买：选号前必须确认的几件事](https://Twitterzhanghao.github.io/articles/2026-11-07-纸飞机账号购买-选号前必须确认的几件事/)
+- [Telegram 登录后必做的 3 步设置](https://Twitterzhanghao.github.io/articles/2026-11-04-deng-lu-hou-bi-zuo-3-bu/)
 
-也可以访问 [文章列表](https://telegramgomai.github.io/articles/) 查看全部内容。
+也可以访问 [文章列表](https://Twitterzhanghao.github.io/articles/) 查看全部内容。
 
 ---
 
