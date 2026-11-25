@@ -1,64 +1,700 @@
 {
+  "updated": "2026-11-25",
+  "total": 17,
+  "in_stock_count": 16,
+  "total_stock": 10077,
+  "min_price": "3.20",
+  "max_price": "2600.00",
   "products": [
     {
-      "id": 101,
-      "slug": "new-accounts",
+      "id": "X-NEW-MIX",
+      "code": "X-NEW-MIX",
+      "slug": "x-new-mix",
       "category": "新号",
       "cat_slug": "new",
-      "title": "X（推特）新号账号",
-      "description": "全新注册、从未使用过的纯净账号，适合做全新运营或养号。支持任意国家/地区定制，提供截图验证注册过程。",
-      "price_start": 5,
-      "price_end": 15,
-      "features": ["全新注册", "从未使用过", "可指定国家", "提供注册截图"],
+      "title": "混合地区新号（6 个月以上）",
+      "description": "邮箱验证完成的注册号，地区混合随机，适合做养号起点或普通业务使用。",
+      "features": [
+        "注册满 6 个月以上",
+        "邮箱已验证",
+        "地区混合随机",
+        "自动发货 · 秒到"
+      ],
+      "price_start": 6.0,
+      "price_f": "6.00",
+      "stock": 320,
+      "stock_cls": "in-stock",
       "image": "/assets/images/twitter-0.webp"
     },
     {
-      "id": 102,
-      "slug": "old-accounts",
-      "category": "老号",
-      "cat_slug": "old",
-      "title": "X（推特）老号账号",
-      "description": "注册时间久、活跃度高、粉丝基础好的老号，降低被限权风险，适合直接营销使用。",
-      "price_start": 20,
-      "price_end": 50,
-      "features": ["注册时间久", "活跃度高", "粉丝基础好", "降低限权风险"],
-      "image": "/assets/images/twitter-3.webp"
+      "id": "X-NEW-US",
+      "code": "X-NEW-US",
+      "slug": "x-new-us",
+      "category": "新号",
+      "cat_slug": "new",
+      "title": "美国区新号（12 个月以上）",
+      "description": "美国区 IP 注册、注册时长一年以上，邮箱与手机双验证，适合持续补号的团队。",
+      "features": [
+        "美国区 IP 注册",
+        "注册满 1 年",
+        "邮箱 + 手机双验证",
+        "支持二次改名"
+      ],
+      "price_start": 11.0,
+      "price_f": "11.00",
+      "stock": 85,
+      "stock_cls": "in-stock",
+      "image": "/assets/images/twitter-2.webp"
     },
     {
-      "id": 103,
-      "slug": "aged-accounts",
-      "category": "成品号",
-      "cat_slug": "aged",
-      "title": "X（推特）成品号",
-      "description": "已实名认证、带蓝V或灰V认证的成品号，可直接用于商业营销，无需养号。",
-      "price_start": 60,
-      "price_end": 200,
-      "features": ["已实名认证", "带蓝V/灰V", "直接可用", "无需养号"],
-      "image": "/assets/images/twitter-6.webp"
+      "id": "X-NEW-UK",
+      "code": "X-NEW-UK",
+      "slug": "x-new-uk",
+      "category": "新号",
+      "cat_slug": "new",
+      "title": "英国区新号（12 个月以上）",
+      "description": "英国区注册、一年以上账龄，IP 与账号归属一致，适合需要英区身份的场景。",
+      "features": [
+        "英国区注册",
+        "账龄 12 个月以上",
+        "邮箱已验证",
+        "质保首次登录"
+      ],
+      "price_start": 12.0,
+      "price_f": "12.00",
+      "stock": 48,
+      "stock_cls": "in-stock",
+      "image": "/assets/images/twitter-4.webp"
     },
     {
-      "id": 104,
-      "slug": "verified-accounts",
-      "category": "蓝V认证",
-      "cat_slug": "verified",
-      "title": "X（推特）蓝V认证号",
-      "description": "官方认证企业账号，蓝V标识提升品牌信任度，适合品牌营销和大客户运营。",
-      "price_start": 250,
-      "price_end": 800,
-      "features": ["官方蓝V认证", "品牌信任度高", "适合企业营销", "限量发售"],
+      "id": "X-NEW-JP",
+      "code": "X-NEW-JP",
+      "slug": "x-new-jp",
+      "category": "新号",
+      "cat_slug": "new",
+      "title": "日本区新号（12 个月以上）",
+      "description": "日本区注册、账龄一年以上，干净 IP 环境，适合日区内容运营与投放。",
+      "features": [
+        "日本区注册",
+        "账龄 12 个月以上",
+        "邮箱已验证",
+        "质保首次登录"
+      ],
+      "price_start": 12.0,
+      "price_f": "12.00",
+      "stock": 36,
+      "stock_cls": "in-stock",
+      "image": "/assets/images/twitter-5.webp"
+    },
+    {
+      "id": "X-NEW-HK",
+      "code": "X-NEW-HK",
+      "slug": "x-new-hk",
+      "category": "新号",
+      "cat_slug": "new",
+      "title": "香港区新号（12 个月以上）",
+      "description": "香港区注册、一年以上账龄，支持繁中内容运营。补货中，可咨询客服补货时间。",
+      "features": [
+        "香港区注册",
+        "账龄 12 个月以上",
+        "邮箱已验证",
+        "补货中"
+      ],
+      "price_start": 9.0,
+      "price_f": "9.00",
+      "stock": 0,
+      "stock_cls": "out-of-stock",
       "image": "/assets/images/twitter-9.webp"
     },
     {
-      "id": 105,
-      "slug": "wholesale-accounts",
+      "id": "X-OLD-2018",
+      "code": "X-OLD-2018",
+      "slug": "x-old-2018",
+      "category": "老号",
+      "cat_slug": "old",
+      "title": "2018 年前注册老号",
+      "description": "注册时间在 2018 年之前的真实用户老号，历史行为完整，平台信任度高。",
+      "features": [
+        "2018 年前注册",
+        "老号信任度高",
+        "历史行为完整",
+        "质保首次登录"
+      ],
+      "price_start": 198.0,
+      "price_f": "198.00",
+      "stock": 22,
+      "stock_cls": "in-stock",
+      "image": "/assets/images/twitter-3.webp"
+    },
+    {
+      "id": "X-OLD-2020",
+      "code": "X-OLD-2020",
+      "slug": "x-old-2020",
+      "category": "老号",
+      "cat_slug": "old",
+      "title": "2020 年注册老号",
+      "description": "注册时间在 2020 年前后的老号，账号年龄与平台信任度兼顾，性价比高。",
+      "features": [
+        "2020 年注册",
+        "邮箱已验证",
+        "历史行为完整",
+        "质保首次登录"
+      ],
+      "price_start": 138.0,
+      "price_f": "138.00",
+      "stock": 64,
+      "stock_cls": "in-stock",
+      "image": "/assets/images/twitter-6.webp"
+    },
+    {
+      "id": "X-OLD-2022",
+      "code": "X-OLD-2022",
+      "slug": "x-old-2022",
+      "category": "老号",
+      "cat_slug": "old",
+      "title": "2022 年注册老号",
+      "description": "2022 年注册的老号，账号年龄两到四年，比新号更容易过风控。",
+      "features": [
+        "2022 年注册",
+        "邮箱已验证",
+        "历史行为完整",
+        "质保首次登录"
+      ],
+      "price_start": 98.0,
+      "price_f": "98.00",
+      "stock": 120,
+      "stock_cls": "in-stock",
+      "image": "/assets/images/twitter-7.webp"
+    },
+    {
+      "id": "X-OLD-2024",
+      "code": "X-OLD-2024",
+      "slug": "x-old-2024",
+      "category": "老号",
+      "cat_slug": "old",
+      "title": "2024 年注册老号",
+      "description": "2024 年注册的近一年老号，适合需要账号年龄又想控制成本的场景。",
+      "features": [
+        "2024 年注册",
+        "邮箱已验证",
+        "历史行为完整",
+        "质保首次登录"
+      ],
+      "price_start": 58.0,
+      "price_f": "58.00",
+      "stock": 210,
+      "stock_cls": "in-stock",
+      "image": "/assets/images/twitter-10.webp"
+    },
+    {
+      "id": "X-READY-STD",
+      "code": "X-READY-STD",
+      "slug": "x-ready-std",
+      "category": "成品号",
+      "cat_slug": "ready",
+      "title": "成品号（已养号 30 天）",
+      "description": "已养号 30 天、头像简介齐全、有历史推文的成品号，开箱即可发内容。",
+      "features": [
+        "养号 30 天",
+        "头像简介齐全",
+        "有历史推文",
+        "开箱即用"
+      ],
+      "price_start": 88.0,
+      "price_f": "88.00",
+      "stock": 45,
+      "stock_cls": "in-stock",
+      "image": "/assets/images/twitter-finished-account.webp"
+    },
+    {
+      "id": "X-READY-PRO",
+      "code": "X-READY-PRO",
+      "slug": "x-ready-pro",
+      "category": "成品号",
+      "cat_slug": "ready",
+      "title": "成品号（已养号 90 天）",
+      "description": "养号满 90 天、头像简介齐全并带原创推文，信任度更高、更抗风控。",
+      "features": [
+        "养号 90 天",
+        "原创推文",
+        "头像简介齐全",
+        "开箱即用"
+      ],
+      "price_start": 168.0,
+      "price_f": "168.00",
+      "stock": 18,
+      "stock_cls": "in-stock",
+      "image": "/assets/images/twitter-11.webp"
+    },
+    {
+      "id": "X-BLUE-PERSONAL",
+      "code": "X-BLUE-PERSONAL",
+      "slug": "x-blue-personal",
+      "category": "蓝V号",
+      "cat_slug": "blue",
+      "title": "X Premium 蓝V个人号",
+      "description": "X Premium 订阅的个人蓝V号，带蓝V标识，适合需要高信任度背书的个人 IP。",
+      "features": [
+        "X Premium 蓝V",
+        "个人认证",
+        "订阅有效",
+        "适合个人 IP"
+      ],
+      "price_start": 880.0,
+      "price_f": "880.00",
+      "stock": 6,
+      "stock_cls": "low-stock",
+      "image": "/assets/images/twitter-account-buy.webp"
+    },
+    {
+      "id": "X-BLUE-ORG",
+      "code": "X-BLUE-ORG",
+      "slug": "x-blue-org",
+      "category": "蓝V号",
+      "cat_slug": "blue",
+      "title": "X 蓝V企业号",
+      "description": "企业认证蓝V号，适合品牌营销与商业投放，限量发售。",
+      "features": [
+        "企业认证",
+        "蓝V标识",
+        "订阅有效",
+        "限量发售"
+      ],
+      "price_start": 2600.0,
+      "price_f": "2600.00",
+      "stock": 3,
+      "stock_cls": "low-stock",
+      "image": "/assets/images/twitter-platform.webp"
+    },
+    {
+      "id": "X-BULK-1000",
+      "code": "X-BULK-1000",
+      "slug": "x-bulk-1000",
       "category": "批发号",
-      "cat_slug": "wholesale",
-      "title": "X（推特）批发号",
-      "description": "批量购买优惠价格，适合代理商、工作室大规模获取账号。支持新号/老号/混批，价格从优。",
-      "price_start": 3,
-      "price_end": 20,
-      "features": ["批量优惠", "新老混批可选", "适合代理商", "价格从优"],
+      "cat_slug": "bulk",
+      "title": "小号批发（1000 个起）",
+      "description": "1000 个起订的长期供货价，适合矩阵铺号、批量注册、需要海量账号的走量场景。",
+      "features": [
+        "1000 个起订",
+        "最低单价",
+        "长期供货",
+        "量越大价越低"
+      ],
+      "price_start": 3.2,
+      "price_f": "3.20",
+      "stock": 5000,
+      "stock_cls": "in-stock",
+      "image": "/assets/images/twitter-where-to-buy.webp"
+    },
+    {
+      "id": "X-BULK-100",
+      "code": "X-BULK-100",
+      "slug": "x-bulk-100",
+      "category": "批发号",
+      "cat_slug": "bulk",
+      "title": "小号批发（100 个起）",
+      "description": "100 个起订档，适合中小规模矩阵测试与批量注册需求。",
+      "features": [
+        "100 个起订",
+        "适合测试投放",
+        "质保首次登录",
+        "量大可谈阶梯价"
+      ],
+      "price_start": 4.5,
+      "price_f": "4.50",
+      "stock": 2000,
+      "stock_cls": "in-stock",
+      "image": "/assets/images/twitter-plane-buy.webp"
+    },
+    {
+      "id": "X-BULK-OLD50",
+      "code": "X-BULK-OLD50",
+      "slug": "x-bulk-old50",
+      "category": "批发号",
+      "cat_slug": "bulk",
+      "title": "老号批发（50 个起）",
+      "description": "老号混批档，50 个起，账号年龄 1-6 年混合，适合需要账号年龄的批量场景。",
+      "features": [
+        "50 个起",
+        "新老混批可选",
+        "账号年龄 1-6 年",
+        "质保首次登录"
+      ],
+      "price_start": 48.0,
+      "price_f": "48.00",
+      "stock": 600,
+      "stock_cls": "in-stock",
+      "image": "/assets/images/twitter-5.webp"
+    },
+    {
+      "id": "X-BULK-NEW50",
+      "code": "X-BULK-NEW50",
+      "slug": "x-bulk-new50",
+      "category": "批发号",
+      "cat_slug": "bulk",
+      "title": "新号批发（50 个起）",
+      "description": "新号混批档，50 个起，地区随机，适合短期项目与批量养号起点。",
+      "features": [
+        "50 个起",
+        "地区随机",
+        "邮箱已验证",
+        "质保首次登录"
+      ],
+      "price_start": 5.2,
+      "price_f": "5.20",
+      "stock": 1500,
+      "stock_cls": "in-stock",
+      "image": "/assets/images/twitter-0.webp"
+    }
+  ],
+  "new": [
+    {
+      "id": "X-NEW-MIX",
+      "code": "X-NEW-MIX",
+      "slug": "x-new-mix",
+      "category": "新号",
+      "cat_slug": "new",
+      "title": "混合地区新号（6 个月以上）",
+      "description": "邮箱验证完成的注册号，地区混合随机，适合做养号起点或普通业务使用。",
+      "features": [
+        "注册满 6 个月以上",
+        "邮箱已验证",
+        "地区混合随机",
+        "自动发货 · 秒到"
+      ],
+      "price_start": 6.0,
+      "price_f": "6.00",
+      "stock": 320,
+      "stock_cls": "in-stock",
+      "image": "/assets/images/twitter-0.webp"
+    },
+    {
+      "id": "X-NEW-US",
+      "code": "X-NEW-US",
+      "slug": "x-new-us",
+      "category": "新号",
+      "cat_slug": "new",
+      "title": "美国区新号（12 个月以上）",
+      "description": "美国区 IP 注册、注册时长一年以上，邮箱与手机双验证，适合持续补号的团队。",
+      "features": [
+        "美国区 IP 注册",
+        "注册满 1 年",
+        "邮箱 + 手机双验证",
+        "支持二次改名"
+      ],
+      "price_start": 11.0,
+      "price_f": "11.00",
+      "stock": 85,
+      "stock_cls": "in-stock",
       "image": "/assets/images/twitter-2.webp"
+    },
+    {
+      "id": "X-NEW-UK",
+      "code": "X-NEW-UK",
+      "slug": "x-new-uk",
+      "category": "新号",
+      "cat_slug": "new",
+      "title": "英国区新号（12 个月以上）",
+      "description": "英国区注册、一年以上账龄，IP 与账号归属一致，适合需要英区身份的场景。",
+      "features": [
+        "英国区注册",
+        "账龄 12 个月以上",
+        "邮箱已验证",
+        "质保首次登录"
+      ],
+      "price_start": 12.0,
+      "price_f": "12.00",
+      "stock": 48,
+      "stock_cls": "in-stock",
+      "image": "/assets/images/twitter-4.webp"
+    },
+    {
+      "id": "X-NEW-JP",
+      "code": "X-NEW-JP",
+      "slug": "x-new-jp",
+      "category": "新号",
+      "cat_slug": "new",
+      "title": "日本区新号（12 个月以上）",
+      "description": "日本区注册、账龄一年以上，干净 IP 环境，适合日区内容运营与投放。",
+      "features": [
+        "日本区注册",
+        "账龄 12 个月以上",
+        "邮箱已验证",
+        "质保首次登录"
+      ],
+      "price_start": 12.0,
+      "price_f": "12.00",
+      "stock": 36,
+      "stock_cls": "in-stock",
+      "image": "/assets/images/twitter-5.webp"
+    },
+    {
+      "id": "X-NEW-HK",
+      "code": "X-NEW-HK",
+      "slug": "x-new-hk",
+      "category": "新号",
+      "cat_slug": "new",
+      "title": "香港区新号（12 个月以上）",
+      "description": "香港区注册、一年以上账龄，支持繁中内容运营。补货中，可咨询客服补货时间。",
+      "features": [
+        "香港区注册",
+        "账龄 12 个月以上",
+        "邮箱已验证",
+        "补货中"
+      ],
+      "price_start": 9.0,
+      "price_f": "9.00",
+      "stock": 0,
+      "stock_cls": "out-of-stock",
+      "image": "/assets/images/twitter-9.webp"
+    }
+  ],
+  "old": [
+    {
+      "id": "X-OLD-2018",
+      "code": "X-OLD-2018",
+      "slug": "x-old-2018",
+      "category": "老号",
+      "cat_slug": "old",
+      "title": "2018 年前注册老号",
+      "description": "注册时间在 2018 年之前的真实用户老号，历史行为完整，平台信任度高。",
+      "features": [
+        "2018 年前注册",
+        "老号信任度高",
+        "历史行为完整",
+        "质保首次登录"
+      ],
+      "price_start": 198.0,
+      "price_f": "198.00",
+      "stock": 22,
+      "stock_cls": "in-stock",
+      "image": "/assets/images/twitter-3.webp"
+    },
+    {
+      "id": "X-OLD-2020",
+      "code": "X-OLD-2020",
+      "slug": "x-old-2020",
+      "category": "老号",
+      "cat_slug": "old",
+      "title": "2020 年注册老号",
+      "description": "注册时间在 2020 年前后的老号，账号年龄与平台信任度兼顾，性价比高。",
+      "features": [
+        "2020 年注册",
+        "邮箱已验证",
+        "历史行为完整",
+        "质保首次登录"
+      ],
+      "price_start": 138.0,
+      "price_f": "138.00",
+      "stock": 64,
+      "stock_cls": "in-stock",
+      "image": "/assets/images/twitter-6.webp"
+    },
+    {
+      "id": "X-OLD-2022",
+      "code": "X-OLD-2022",
+      "slug": "x-old-2022",
+      "category": "老号",
+      "cat_slug": "old",
+      "title": "2022 年注册老号",
+      "description": "2022 年注册的老号，账号年龄两到四年，比新号更容易过风控。",
+      "features": [
+        "2022 年注册",
+        "邮箱已验证",
+        "历史行为完整",
+        "质保首次登录"
+      ],
+      "price_start": 98.0,
+      "price_f": "98.00",
+      "stock": 120,
+      "stock_cls": "in-stock",
+      "image": "/assets/images/twitter-7.webp"
+    },
+    {
+      "id": "X-OLD-2024",
+      "code": "X-OLD-2024",
+      "slug": "x-old-2024",
+      "category": "老号",
+      "cat_slug": "old",
+      "title": "2024 年注册老号",
+      "description": "2024 年注册的近一年老号，适合需要账号年龄又想控制成本的场景。",
+      "features": [
+        "2024 年注册",
+        "邮箱已验证",
+        "历史行为完整",
+        "质保首次登录"
+      ],
+      "price_start": 58.0,
+      "price_f": "58.00",
+      "stock": 210,
+      "stock_cls": "in-stock",
+      "image": "/assets/images/twitter-10.webp"
+    }
+  ],
+  "ready": [
+    {
+      "id": "X-READY-STD",
+      "code": "X-READY-STD",
+      "slug": "x-ready-std",
+      "category": "成品号",
+      "cat_slug": "ready",
+      "title": "成品号（已养号 30 天）",
+      "description": "已养号 30 天、头像简介齐全、有历史推文的成品号，开箱即可发内容。",
+      "features": [
+        "养号 30 天",
+        "头像简介齐全",
+        "有历史推文",
+        "开箱即用"
+      ],
+      "price_start": 88.0,
+      "price_f": "88.00",
+      "stock": 45,
+      "stock_cls": "in-stock",
+      "image": "/assets/images/twitter-finished-account.webp"
+    },
+    {
+      "id": "X-READY-PRO",
+      "code": "X-READY-PRO",
+      "slug": "x-ready-pro",
+      "category": "成品号",
+      "cat_slug": "ready",
+      "title": "成品号（已养号 90 天）",
+      "description": "养号满 90 天、头像简介齐全并带原创推文，信任度更高、更抗风控。",
+      "features": [
+        "养号 90 天",
+        "原创推文",
+        "头像简介齐全",
+        "开箱即用"
+      ],
+      "price_start": 168.0,
+      "price_f": "168.00",
+      "stock": 18,
+      "stock_cls": "in-stock",
+      "image": "/assets/images/twitter-11.webp"
+    }
+  ],
+  "blue": [
+    {
+      "id": "X-BLUE-PERSONAL",
+      "code": "X-BLUE-PERSONAL",
+      "slug": "x-blue-personal",
+      "category": "蓝V号",
+      "cat_slug": "blue",
+      "title": "X Premium 蓝V个人号",
+      "description": "X Premium 订阅的个人蓝V号，带蓝V标识，适合需要高信任度背书的个人 IP。",
+      "features": [
+        "X Premium 蓝V",
+        "个人认证",
+        "订阅有效",
+        "适合个人 IP"
+      ],
+      "price_start": 880.0,
+      "price_f": "880.00",
+      "stock": 6,
+      "stock_cls": "low-stock",
+      "image": "/assets/images/twitter-account-buy.webp"
+    },
+    {
+      "id": "X-BLUE-ORG",
+      "code": "X-BLUE-ORG",
+      "slug": "x-blue-org",
+      "category": "蓝V号",
+      "cat_slug": "blue",
+      "title": "X 蓝V企业号",
+      "description": "企业认证蓝V号，适合品牌营销与商业投放，限量发售。",
+      "features": [
+        "企业认证",
+        "蓝V标识",
+        "订阅有效",
+        "限量发售"
+      ],
+      "price_start": 2600.0,
+      "price_f": "2600.00",
+      "stock": 3,
+      "stock_cls": "low-stock",
+      "image": "/assets/images/twitter-platform.webp"
+    }
+  ],
+  "bulk": [
+    {
+      "id": "X-BULK-1000",
+      "code": "X-BULK-1000",
+      "slug": "x-bulk-1000",
+      "category": "批发号",
+      "cat_slug": "bulk",
+      "title": "小号批发（1000 个起）",
+      "description": "1000 个起订的长期供货价，适合矩阵铺号、批量注册、需要海量账号的走量场景。",
+      "features": [
+        "1000 个起订",
+        "最低单价",
+        "长期供货",
+        "量越大价越低"
+      ],
+      "price_start": 3.2,
+      "price_f": "3.20",
+      "stock": 5000,
+      "stock_cls": "in-stock",
+      "image": "/assets/images/twitter-where-to-buy.webp"
+    },
+    {
+      "id": "X-BULK-100",
+      "code": "X-BULK-100",
+      "slug": "x-bulk-100",
+      "category": "批发号",
+      "cat_slug": "bulk",
+      "title": "小号批发（100 个起）",
+      "description": "100 个起订档，适合中小规模矩阵测试与批量注册需求。",
+      "features": [
+        "100 个起订",
+        "适合测试投放",
+        "质保首次登录",
+        "量大可谈阶梯价"
+      ],
+      "price_start": 4.5,
+      "price_f": "4.50",
+      "stock": 2000,
+      "stock_cls": "in-stock",
+      "image": "/assets/images/twitter-plane-buy.webp"
+    },
+    {
+      "id": "X-BULK-OLD50",
+      "code": "X-BULK-OLD50",
+      "slug": "x-bulk-old50",
+      "category": "批发号",
+      "cat_slug": "bulk",
+      "title": "老号批发（50 个起）",
+      "description": "老号混批档，50 个起，账号年龄 1-6 年混合，适合需要账号年龄的批量场景。",
+      "features": [
+        "50 个起",
+        "新老混批可选",
+        "账号年龄 1-6 年",
+        "质保首次登录"
+      ],
+      "price_start": 48.0,
+      "price_f": "48.00",
+      "stock": 600,
+      "stock_cls": "in-stock",
+      "image": "/assets/images/twitter-5.webp"
+    },
+    {
+      "id": "X-BULK-NEW50",
+      "code": "X-BULK-NEW50",
+      "slug": "x-bulk-new50",
+      "category": "批发号",
+      "cat_slug": "bulk",
+      "title": "新号批发（50 个起）",
+      "description": "新号混批档，50 个起，地区随机，适合短期项目与批量养号起点。",
+      "features": [
+        "50 个起",
+        "地区随机",
+        "邮箱已验证",
+        "质保首次登录"
+      ],
+      "price_start": 5.2,
+      "price_f": "5.20",
+      "stock": 1500,
+      "stock_cls": "in-stock",
+      "image": "/assets/images/twitter-0.webp"
     }
   ]
 }
